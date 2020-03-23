@@ -1,17 +1,16 @@
 //#pragma once
-//#include <vector>
+//#include <stack>
+//#include <iostream>
 //using namespace std;
 //
 //class MyQueue
 //{
 //private:
-//	vector<int> data;
-//	int p_start;
+//	stack<int> s1;
 //public:
-//	MyQueue() { p_start = 0; }
-//	bool enQueue(int x);
-//	bool deQueue();
-//	int Front();
-//	bool isEmpty();
+//	MyQueue();
+//	void push(int x);
+//	int pop();
+//	int peek();
+//	bool empty();
 //};
-//

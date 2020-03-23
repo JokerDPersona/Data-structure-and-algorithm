@@ -1,48 +1,50 @@
 //#include "MyQueue.h"
-//#include <iostream>
 //
-//using namespace std;
-//
-//bool MyQueue::enQueue(int x)
+//MyQueue::MyQueue()
 //{
-//	data.push_back(x);
-//	return true;
+//
 //}
 //
-//bool MyQueue::deQueue()
+//void MyQueue::push(int x)
 //{
-//	if (isEmpty()) {
-//		return false;
+//	stack <int> s2;
+//	while (s1.size()) {
+//		s2.push(s1.top());
+//		s1.pop();
 //	}
-//	p_start++;
-//	return true;
+//	s1.push(x);
+//	while (s2.size()) {
+//		s1.push(s2.top());
+//		s2.pop();
+//	}
 //}
 //
-//int MyQueue::Front()
+//int MyQueue::pop()
 //{
-//	return data[p_start];
+//	int a = s1.top();
+//	s1.pop();
+//	return a;
 //}
 //
-//bool MyQueue::isEmpty()
+//int MyQueue::peek()
 //{
-//	return p_start >= data.size();
+//	return s1.top();
+//}
+//
+//bool MyQueue::empty()
+//{
+//	return s1.empty();
 //}
 //
 //int main() {
-//	MyQueue q;
-//	q.enQueue(5);
-//	q.enQueue(3);
-//	if (!q.isEmpty()) {
-//		cout << q.Front() << endl;
-//	}
-//	q.deQueue();
-//	if (!q.isEmpty()) {
-//		cout << q.Front() << endl;
-//	}
-//	q.deQueue();
-//	if (!q.isEmpty()) {
-//		cout << q.Front() << endl;
-//	}
+//	MyQueue mq;
+//	mq.push(2);
+//	mq.push(8);
+//	mq.push(4);
+//	
+//	cout << "peek:" << mq.peek() << endl;
+//	cout << "pop:" << mq.pop() << endl;
 //	getchar();
 //	return 0;
 //}
+//
