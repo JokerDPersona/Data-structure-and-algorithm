@@ -66,6 +66,12 @@
     <ClCompile Include="EctopicWords.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="GuessNumber.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Tree.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Finsh.h">
@@ -117,6 +123,12 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="EctopicWords.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GuessNumber.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Tree.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

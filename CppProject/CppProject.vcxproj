@@ -26,6 +26,7 @@
     <ClCompile Include="EctopicWords.cpp" />
     <ClCompile Include="Expression.cpp" />
     <ClCompile Include="Finsh.cpp" />
+    <ClCompile Include="GuessNumber.cpp" />
     <ClCompile Include="LinkTableSort.cpp" />
     <ClCompile Include="MaxArea.cpp" />
     <ClCompile Include="MoveZero.cpp" />
@@ -35,6 +36,7 @@
     <ClCompile Include="Spawner.cpp" />
     <ClCompile Include="Superpower.cpp" />
     <ClCompile Include="ThreeSum.cpp" />
+    <ClCompile Include="Tree.cpp" />
     <ClCompile Include="Window_Mgr.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -45,6 +47,7 @@
     <ClInclude Include="EctopicWords.h" />
     <ClInclude Include="Expression.h" />
     <ClInclude Include="Finsh.h" />
+    <ClInclude Include="GuessNumber.h" />
     <ClInclude Include="LinkTableSort.h" />
     <ClInclude Include="MaxArea.h" />
     <ClInclude Include="MoveZero.h" />
@@ -54,6 +57,7 @@
     <ClInclude Include="Spawner.h" />
     <ClInclude Include="Superpower.h" />
     <ClInclude Include="ThreeSum.h" />
+    <ClInclude Include="Tree.h" />
     <ClInclude Include="Window_Mgr.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
