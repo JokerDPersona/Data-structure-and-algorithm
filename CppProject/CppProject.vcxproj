@@ -20,6 +20,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="BinarySearch.cpp" />
+    <ClCompile Include="BitTree.cpp" />
     <ClCompile Include="CircularQueue.cpp" />
     <ClCompile Include="climbStairs.cpp" />
     <ClCompile Include="CommandModel.cpp" />
@@ -29,10 +30,12 @@
     <ClCompile Include="Finsh.cpp" />
     <ClCompile Include="GuessNumber.cpp" />
     <ClCompile Include="LinkTableSort.cpp" />
+    <ClCompile Include="Main.cpp" />
     <ClCompile Include="MaxArea.cpp" />
     <ClCompile Include="MoveZero.cpp" />
     <ClCompile Include="MyQueue.cpp" />
     <ClCompile Include="MyStack.cpp" />
+    <ClCompile Include="RBTree.cpp" />
     <ClCompile Include="Solution.cpp" />
     <ClCompile Include="Spawner.cpp" />
     <ClCompile Include="Superpower.cpp" />
@@ -55,6 +58,7 @@
     <ClInclude Include="MoveZero.h" />
     <ClInclude Include="MyQueue.h" />
     <ClInclude Include="MyStack.h" />
+    <ClInclude Include="RBTree.h" />
     <ClInclude Include="Solution.h" />
     <ClInclude Include="Spawner.h" />
     <ClInclude Include="Superpower.h" />
