@@ -41,6 +41,7 @@
     <ClCompile Include="Superpower.cpp" />
     <ClCompile Include="ThreeSum.cpp" />
     <ClCompile Include="Tree.cpp" />
+    <ClCompile Include="twoSum.cpp" />
     <ClCompile Include="Window_Mgr.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -64,6 +65,7 @@
     <ClInclude Include="Superpower.h" />
     <ClInclude Include="ThreeSum.h" />
     <ClInclude Include="Tree.h" />
+    <ClInclude Include="twoSum.h" />
     <ClInclude Include="Window_Mgr.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
